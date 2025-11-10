@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+    <title>Proceduralabs | Documentation</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap" rel="stylesheet">
+    <!-- Config -->
+    <link type="text/css" rel="stylesheet" href="css/config.css">
+    <!-- Libraries -->
+    <link type="text/css" rel="stylesheet" href="css/libs.css">
+    <!-- Template Styles -->
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <!-- Responsive -->
+    <link type="text/css" rel="stylesheet" href="css/responsive.css">
+    <!-- Markdown Styles -->
+    <style>
+        .markdown-content {
+            line-height: 1.8;
+        }
+        .markdown-content h2 {
+            margin-top: 2em;
+            margin-bottom: 1em;
+        }
+        .markdown-content h3 {
+            margin-top: 1.5em;
+            margin-bottom: 0.8em;
+        }
+        .markdown-content code {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        .markdown-content pre {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1em;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        .markdown-content pre code {
+            background: none;
+            padding: 0;
+        }
+        .doc-sidebar {
+            position: sticky;
+            top: 100px;
+        }
+    </style>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png" sizes="32x32">
+</head>
+<body>
+    <!-- Header -->
+    <header id="bringer-header" class="is-frosted is-sticky" data-appear="fade-down" data-unload="fade-up">
+        <!-- Desktop Header -->
+        <div class="bringer-header-inner">
+            <!-- Header Logo -->
+            <div class="bringer-header-lp">
+                <a href="./" class="bringer-logo">
+                    <img src="img/logo.png" alt="Proceduralabs" width="88" height="24">
+                </a>
+            </div>
+            <!-- Main Menu -->
+            <div class="bringer-header-mp">
+                <nav class="bringer-nav">
+                    <ul class="main-menu" data-stagger-appear="fade-down" data-stagger-delay="75">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="pricing.html">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="portfolio-slider.html">Showcase</a>
+                        </li>
+                        <li class="current-menu-item">
+                            <a href="documentation.html">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="contacts.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Header Button -->
+            <div class="bringer-header-rp">
+                <a href="contacts.html" class="bringer-button">Get in Touch</a>
+            </div>
+        </div>
+        <!-- Mobile Header -->
+        <div class="bringer-mobile-header-inner">
+            <a href="./" class="bringer-logo">
+                <img src="img/logo.png" alt="Proceduralabs" width="88" height="24">
+            </a>
+            <a href="#" class="bringer-mobile-menu-toggler">
+                <i class="bringer-menu-toggler-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Page Main -->
+    <main id="bringer-main">
+        <div class="stg-container">
+            <!-- Section: Page Title -->
+            <section>
+                <div class="stg-row">
+                    <div class="stg-col-8 stg-offset-2 align-center">
+                        <h1 class="bringer-page-title" data-appear="fade-up" data-unload="fade-up">Documentation</h1>
+                        <p class="bringer-large-text" data-appear="fade-up" data-delay="100" data-unload="fade-up">Comprehensive guides, tutorials, and API references for all our UE5 plugins and assets</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Documentation Content -->
+            <section>
+                <div class="stg-row stg-large-gap">
+                    <!-- Sidebar -->
+                    <div class="stg-col-3" data-appear="fade-right">
+                        <div class="doc-sidebar bringer-block">
+                            <h6>Categories</h6>
+                            <ul class="bringer-menu-widget">
+                                <li><a href="#getting-started">Getting Started</a></li>
+                                <li><a href="#plugins">Plugin Documentation</a></li>
+                                <li><a href="#assets">Asset Documentation</a></li>
+                                <li><a href="#tutorials">Video Tutorials</a></li>
+                                <li><a href="#api">API Reference</a></li>
+                                <li><a href="#faq">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Main Content -->
+                    <div class="stg-col-9" data-appear="fade-left">
+                        <div class="markdown-content">
+                            <div id="getting-started">
+                                <h2>Getting Started</h2>
+                                <p>Welcome to Proceduralabs documentation. This guide will help you get up and running with our UE5 plugins and assets.</p>
+
+                                <h3>Installation</h3>
+                                <p>All our products can be installed through the Epic Games Launcher:</p>
+                                <ol>
+                                    <li>Open the Epic Games Launcher</li>
+                                    <li>Navigate to the Unreal Engine > Library tab</li>
+                                    <li>Find your purchased product in the Vault</li>
+                                    <li>Click "Install to Engine" and select your UE5 version</li>
+                                </ol>
+
+                                <h3>First Steps</h3>
+                                <p>After installation, enable the plugin in your project:</p>
+                                <pre><code>1. Edit > Plugins
+2. Search for the plugin name
+3. Check the "Enabled" checkbox
+4. Restart the editor</code></pre>
+                            </div>
+
+                            <div id="plugins">
+                                <h2>Plugin Documentation</h2>
+                                <p>Each plugin comes with its own detailed documentation:</p>
+
+                                <h3>Advanced AI System</h3>
+                                <p>A complete AI solution for UE5 with behavior trees, perception, and squad tactics.</p>
+                                <ul>
+                                    <li><strong>Quick Start Guide:</strong> Get your AI up and running in 10 minutes</li>
+                                    <li><strong>Behavior Trees:</strong> Creating custom AI behaviors</li>
+                                    <li><strong>Perception System:</strong> Setting up sight, hearing, and damage perception</li>
+                                    <li><strong>Squad AI:</strong> Coordinating multiple AI agents</li>
+                                </ul>
+
+                                <h3>Enhanced Combat System</h3>
+                                <p>A flexible combat framework with targeting, combos, and damage calculation.</p>
+                                <ul>
+                                    <li><strong>Setup Guide:</strong> Integrating the combat system</li>
+                                    <li><strong>Attack Combos:</strong> Creating combo chains</li>
+                                    <li><strong>Damage System:</strong> Implementing hit detection and damage</li>
+                                    <li><strong>Targeting:</strong> Lock-on and soft targeting</li>
+                                </ul>
+                            </div>
+
+                            <div id="assets">
+                                <h2>Asset Documentation</h2>
+
+                                <h3>Environment Assets</h3>
+                                <p>Our environment packs are optimized for Unreal Engine 5's Nanite and Lumen systems.</p>
+
+                                <h4>Performance Tips</h4>
+                                <ul>
+                                    <li>Enable Nanite for all static meshes included in the pack</li>
+                                    <li>Use the provided LOD settings for optimal performance</li>
+                                    <li>Utilize virtual shadow maps for best quality</li>
+                                    <li>Enable Lumen for realistic global illumination</li>
+                                </ul>
+                            </div>
+
+                            <div id="tutorials">
+                                <h2>Video Tutorials</h2>
+                                <p>We provide comprehensive video tutorials for all our products. Visit our YouTube channel for:</p>
+                                <ul>
+                                    <li>Quick Start guides (5-10 minutes)</li>
+                                    <li>In-depth feature tutorials (20-30 minutes)</li>
+                                    <li>Project showcases and use cases</li>
+                                    <li>Live Q&A sessions</li>
+                                </ul>
+                            </div>
+
+                            <div id="api">
+                                <h2>API Reference</h2>
+                                <p>Complete C++ and Blueprint API documentation is available for all plugins.</p>
+
+                                <h3>Blueprint API</h3>
+                                <p>All plugins expose Blueprint-friendly nodes for common operations. Key features:</p>
+                                <ul>
+                                    <li>Intuitive node naming</li>
+                                    <li>Comprehensive tooltips</li>
+                                    <li>Example Blueprint projects</li>
+                                    <li>Performance best practices</li>
+                                </ul>
+
+                                <h3>C++ API</h3>
+                                <p>For advanced users, full C++ source code is provided with:</p>
+                                <ul>
+                                    <li>Detailed inline comments</li>
+                                    <li>Code examples</li>
+                                    <li>Extension points for customization</li>
+                                    <li>Performance profiling hooks</li>
+                                </ul>
+                            </div>
+
+                            <div id="faq">
+                                <h2>Frequently Asked Questions</h2>
+
+                                <h3>What UE5 versions are supported?</h3>
+                                <p>All our products support UE5.0 and above. We actively maintain compatibility with the latest engine versions.</p>
+
+                                <h3>Can I use these in commercial projects?</h3>
+                                <p>Yes! Our license allows for use in commercial projects without additional fees or royalties.</p>
+
+                                <h3>Do you offer refunds?</h3>
+                                <p>We follow Epic Games Marketplace refund policy. Please test thoroughly before committing to production use.</p>
+
+                                <h3>How do I get support?</h3>
+                                <p>Contact us through the support email provided with your purchase, or visit our Discord community for peer support.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="backlight-top">
+                <div class="align-center">
+                    <h2 data-appear="fade-up">Need Help?</h2>
+                    <p class="bringer-large-text" data-appear="fade-up" data-delay="100">Can't find what you're looking for? Our support team is here to help.</p>
+                    <div data-appear="fade-up" data-delay="200">
+                        <a href="contacts.html" class="bringer-button">Contact Support</a>
+                    </div>
+                </div>
+            </section>
+
+        </div><!-- .stg-container -->
+
+        <!-- Footer -->
+        <footer id="bringer-footer" data-appear="fade-up" data-unload="fade-down">
+            <!-- Footer Widgets Area -->
+            <div class="bringer-footer-widgets">
+                <div class="stg-container">
+                    <div class="stg-row" data-stagger-appear="fade-left" data-stagger-delay="100">
+                        <div class="stg-col-5 stg-tp-col-12 stg-tp-bottom-gap-l">
+                            <div class="bringer-info-widget">
+                                <a href="./" class="bringer-logo footer-logo">
+                                    <img src="img/logo.png" alt="Proceduralabs" width="88" height="24">
+                                </a>
+                                <div class="bringer-info-description">We are a passionate team of Unreal Engine developers creating professional-grade plugins and assets. Our mission is to empower game developers with tools that make creating amazing experiences faster and easier.</div>
+                                <span class="bringer-label">Follow us:</span>
+                                <ul class="bringer-socials-list" data-stagger-appear="fade-up" data-stagger-delay="75">
+                                    <li>
+                                        <a href="#" target="_blank" class="bringer-socials-facebook">
+                                            <i></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="bringer-socials-instagram">
+                                            <i></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="bringer-socials-x">
+                                            <i></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="bringer-socials-tiktok">
+                                            <i></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="bringer-socials-patreon">
+                                            <i></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="stg-col-2 stg-offset-1 stg-tp-col-4 stg-m-col-4">
+                            <div class="bringer-widget">
+                                <h6>Products</h6>
+                                <div class="bringer-menu-widget">
+                                    <ul>
+                                        <li><a href="pricing.html">Gameplay Plugins</a></li>
+                                        <li><a href="pricing.html">Environment Assets</a></li>
+                                        <li><a href="pricing.html">Developer Tools</a></li>
+                                        <li><a href="pricing.html">Character Systems</a></li>
+                                        <li><a href="pricing.html">VFX & Shaders</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- .bringer-widget -->
+                        </div>
+                        <div class="stg-col-2 stg-tp-col-4 stg-m-col-4">
+                            <div class="bringer-widget">
+                                <h6>Company</h6>
+                                <div class="bringer-menu-widget">
+                                    <ul>
+                                        <li><a href="about-us.html">About Us</a></li>
+                                        <li><a href="portfolio-slider.html">Showcase</a></li>
+                                        <li><a href="pricing.html">Pricing</a></li>
+                                        <li><a href="documentation.html">Documentation</a></li>
+                                        <li><a href="contacts.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- .bringer-widget -->
+                        </div>
+                        <div class="stg-col-2 stg-tp-col-4 stg-m-col-4">
+                            <div class="bringer-widget">
+                                <h6>Resources</h6>
+                                <div class="bringer-menu-widget">
+                                    <ul>
+                                        <li><a href="documentation.html">Documentation</a></li>
+                                        <li><a href="documentation.html">Tutorials</a></li>
+                                        <li><a href="documentation.html">API Reference</a></li>
+                                        <li><a href="#">Support</a></li>
+                                        <li><a href="#">Community</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- .bringer-widget -->
+                        </div>
+                    </div><!-- .stg-row -->
+                </div><!-- .stg-container -->
+            </div><!-- .bringer-footer-widgets -->
+
+            <!-- Footer Copyright Line -->
+            <div class="bringer-footer-line stg-container">
+                <div class="align-center">
+                    Copyright &copy; 2025 Proceduralabs. All Rights Reserved.
+                </div>
+            </div><!-- bringer-footer-line -->
+        </footer>
+	</main>
+
+    <!-- Right Click Protection Block -->
+    <div class="bringer-rcp-wrap">
+        <div class="bringer-rcp-overlay"></div>
+        <div class="bringer-rcp-container">
+            <h2>The context menu is not allowed on this page.</h2>
+        </div>
+    </div>
+
+    <!-- Dynamic Backlight -->
+    <div class="bringer-backlight"></div>
+
+    <!-- JS Scripts -->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/libs.js"></script>
+    <script src="js/contact_form.js"></script>
+    <script src="js/st-core.js"></script>
+    <script src="js/classes.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
